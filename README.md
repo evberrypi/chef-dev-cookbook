@@ -2,7 +2,8 @@
 
 For running locally with Vagrant and Chef Hosted, or on AWS OpsWorks.
 Part of a project to learn Chef to provision 3 nodes on AWS (Dev, Staging + Prod)
-** For the front end Ionic/Angular app, please refer to [this repo](https://gitlab.com/evberrypi/ionicchef)
+
+** For the front end Ionic/Angular app, please refer to [this repo](https://gitlab.com/evberrypi/ionicchef) **
 
 For this project, I wanted to build a development, staging, and production server on AWS to learn Chef. In addition, I wanted to add a CI pipeline for code changes, have new versions built into Docker containers, and then have a Kubernetes Cluster run the production containers. All VMs are using Ubuntu 18.04, the applicaton is using Nodejs v11, and the database is Postgres. Additonal tools used include Habitat, Inspec, and Docker. 
 
