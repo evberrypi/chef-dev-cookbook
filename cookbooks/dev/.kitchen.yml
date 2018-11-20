@@ -19,7 +19,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[dev::default]
+      - recipe[dev2::default]
     verifier:
       inspec_tests:
         - test/integration/default

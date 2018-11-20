@@ -1,4 +1,4 @@
-# dev2
+# users
 
 TODO: Enter the cookbook description here.
 

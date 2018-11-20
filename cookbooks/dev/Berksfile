@@ -2,6 +2,9 @@
 source 'https://supermarket.chef.io'
 
 metadata
+cookbook 'ssh_keygen', '~> 1.1.0'
 
-cookbook 'nodejs', '~> 6.0.0'
-cookbook 'git', '~> 9.0.1'
+
+cookbook 'habitat', '~> 0.67.0'
+
+
