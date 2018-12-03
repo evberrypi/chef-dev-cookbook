@@ -1,9 +1,10 @@
 ## Using Chef to Deploy A Simple Ionic/Angular Todo App on AWS 
-This is code for the Todo app is [here](https://gitlab.com/evberrypi/ionaws). It is a simple javascript web/hybrid mobile app using Ionic/Angular which connects with AWS Cogito for User managment, S3 for static file hosting, and DynamoDB (Serverless NoSQL) for the apps backend.
+This is code used to Configure the Chef Server for an [Ionic Todo List App](https://gitlab.com/evberrypi/ionicaws). It is a simple javascript web/hybrid mobile app using Ionic/Angular which connects with AWS Cogito for User managment, S3 for static file hosting, and DynamoDB (Serverless NoSQL) for the apps backend.
 
-Follow along with this guide to run it.
-- The final versions of the cookbooks used in this project can be found [here](gitlab.com/evberrypi/chef-dev-cookbook)  
+The goal of this project was to provision an Ionic/Angular app with a Dev, Staging + Prod environment on AWS using Chef. You do not need to use AWS Opsworks for your chef server, you can also stand up your own Chef server, or use Hosted Chef to manage your server (first 5 nodes free).
 
+
+Blog post [here](https://blog.everettlacey.com/devops/2018/11/24/chef-aws-ionic-production-pipeline.html)
 
 ### Getting setup
 I use vagrant to set up an local workstation to write my recipes, and connect with the Amazon Opsworks Chef Automate Server, as well as any EC2 instances that we will spin up. You do not need to use OpsWorks, and can use a service called (Chef Hosted)[https://manage.chef.io/signup], which is a managed Chef server and provides connection to the first 5 nodes free of charge. Alternatively, you can also the open source version of Chef Automate on your own server [link](https://downloads.chef.io/).
